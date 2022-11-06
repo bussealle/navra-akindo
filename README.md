@@ -1,4 +1,5 @@
 # navra
+## trusted fishing
 
 ![jpg](https://github.com/bussealle/navra-akindo/blob/main/image/navra_top.png)
 
@@ -62,16 +63,36 @@ navraは広く一般の釣り人に使ってもらえるweb2.5サービスとな
 git colne https://github.com/bussealle/navra-akindo
 npm install
 ```
-#### Test Contracts
+#### Test Contracts Local
 ```shell
 npx hardhat test
 ```
+
+#### Deployed Contracts
+- 0x2baf10605ea7d718e3fe68ad1b4cb26ae9edef4a
+  - [on polygonscan](https://mumbai.polygonscan.com/address/0x2baf10605ea7d718e3fe68ad1b4cb26ae9edef4a)
+
+#### Metadata API
+- JSON example
+  - [demo api server](https://navra.fish/metadata-api/token/0000000000000000000000000000000000000000000000000000000000000003.json)
+  - [demo image](https://navra.fish/images/11340390.png)
+
+
 #### Deploy Contracts (If you needed)
 ```shell
 // to Local
 npx hardhat run scripts/deploy.js --network localhost
 // to Mumbai Testnet
 npx hardhat run scripts/deploy.js --network matic
+```
+#### Test Client (If you needed)
+
+```shell
+cd client
+touch .env //for private key
+echo "YOUR PRIVATE KEY" >> .env //
+npm install
+npm run dev //http://localhost:3000
 ```
 
 
@@ -85,7 +106,7 @@ npx hardhat run scripts/deploy.js --network matic
 # 🗓 TO DO
 - ネイティブアプリ
   - また今回は検証のためのクライアントアプリをNextJSで実装しましたが、ネイティブの実装に関しては多くの課題があると考えています。ネイティブ向けのSDKやセキュリティに関してはまだ整備途上のものも多く情報が少ないため、どこまでをweb3ライクにするかを含めてアップデートを続けてまいります。
-- 
+  
   
 - ブロックチェーン
   - 規制の中であえてブロックチェーンを使う意図としては、主にデータの透明性による信頼性の向上、およびデータ二次利用の促進がありますが、将来的なNVRの上場も可能性としてはあると考えています。なおその際、本当にパブリックチェーンが適しているかどうかは検討の余地があると考えています。  
