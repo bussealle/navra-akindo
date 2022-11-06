@@ -1,5 +1,4 @@
-# navra
-## trusted fishing
+# navra - trusted fishing
 
 ![jpg](https://github.com/bussealle/navra-akindo/blob/main/image/navra_top.png)
 
