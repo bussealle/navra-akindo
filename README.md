@@ -14,7 +14,7 @@
 私たちのサービス「navra」に釣果をアップロードすると、釣り場には換金性が保証されたトークン、釣り人には換金性のないトークンの２つが同量発行されます。釣り人が正確で詳細な釣果を蓄積することで、釣り場の価値が向上しより多くトークンが集まる仕組みです。釣り人は釣果情報を貢献実績を証明するトークンとして獲得します。１つの釣果におけるトークン量は「魚種・場所・時期」の変数で釣り場の需要と期待値をレートとして表現し、今までになかった釣り×貢献×位置情報という新しいゲームの実現を目指します。(481字)
 
 
-_キーワード: Fishing、GameFi、ReFi、ERC1155、NFT、SBT、Multitoken、SocialToken、GPS Game、Trustless、MetaTx、Massadoption_
+_Keywords: Fishing、GameFi、ReFi、ERC1155、NFT、SBT、Multitoken、SocialToken、GPS Game、Trustless、MetaTx、Massadoption_
 
 ## 🛠 Tech stacks
 
