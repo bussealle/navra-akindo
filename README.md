@@ -52,7 +52,7 @@ navraは広く一般の釣り人に使ってもらえるweb2.5サービスとな
 ## 🖌 Mockup
 サービスはネイティブアプリケーションを想定しています。今回はクライアントの実装までは至っておりませんが、重要な機能を実現するUIの設計を行いました。アニメーションつきでログインから釣果投稿までの流れを体験していただけます。　※PCでの閲覧を推奨
 
-[👉 Figmaのモックアップ](https://www.figma.com/proto/8YqMWlJ3krgnhhh4OzXdRe/navra.fish?page-id=13%3A9&node-id=795%3A11988&viewport=-7234%2C-2636%2C0.28&scaling=scale-down&starting-point-node-id=795%3A11988&show-proto-sidebar=1)
+[👉 __Figmaのモックアップ__](https://www.figma.com/proto/8YqMWlJ3krgnhhh4OzXdRe/navra.fish?page-id=13%3A9&node-id=795%3A11988&viewport=-7234%2C-2636%2C0.28&scaling=scale-down&starting-point-node-id=795%3A11988&show-proto-sidebar=1)
 
   
 
@@ -94,6 +94,9 @@ npm install
 npm run dev //http://localhost:3000
 ```
 
+## 🌐 Token Economy
+トークンエコノミーの概要図になります。
+![jpg](https://github.com/bussealle/navra-akindo/blob/main/image/navra_tokeneconomy.jpg)
 
 ## 📈 Simulation
 ![gif](https://github.com/bussealle/navra-akindo/blob/main/image/navra_machinations.gif)
