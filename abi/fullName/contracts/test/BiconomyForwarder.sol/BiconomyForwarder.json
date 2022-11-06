@@ -1,0 +1,18 @@
+[
+  "constructor(address _owner)",
+  "event DomainRegistered(bytes32 indexed domainSeparator, bytes domainValue)",
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "function EIP712_DOMAIN_TYPE() view returns (string)",
+  "function REQUEST_TYPEHASH() view returns (bytes32)",
+  "function domains(bytes32) view returns (bool)",
+  "function executeEIP712(tuple(address from, address to, address token, uint256 txGas, uint256 tokenGasPrice, uint256 batchId, uint256 batchNonce, uint256 deadline, bytes data) req, bytes32 domainSeparator, bytes sig) returns (bool success, bytes ret)",
+  "function executePersonalSign(tuple(address from, address to, address token, uint256 txGas, uint256 tokenGasPrice, uint256 batchId, uint256 batchNonce, uint256 deadline, bytes data) req, bytes sig) returns (bool success, bytes ret)",
+  "function getNonce(address from, uint256 batchId) view returns (uint256)",
+  "function getOwner() view returns (address)",
+  "function isOwner() view returns (bool)",
+  "function registerDomainSeparator(string name, string version)",
+  "function renounceOwnership()",
+  "function transferOwnership(address newOwner)",
+  "function verifyEIP712(tuple(address from, address to, address token, uint256 txGas, uint256 tokenGasPrice, uint256 batchId, uint256 batchNonce, uint256 deadline, bytes data) req, bytes32 domainSeparator, bytes sig) view",
+  "function verifyPersonalSign(tuple(address from, address to, address token, uint256 txGas, uint256 tokenGasPrice, uint256 batchId, uint256 batchNonce, uint256 deadline, bytes data) req, bytes sig) view"
+]

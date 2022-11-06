@@ -1,0 +1,7 @@
+[
+  "event OwnershipTransferred(address indexed previousOwner, address indexed newOwner)",
+  "function getOwner() view returns (address)",
+  "function isOwner() view returns (bool)",
+  "function renounceOwnership()",
+  "function transferOwnership(address newOwner)"
+]

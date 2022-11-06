@@ -1,0 +1,3 @@
+[
+  "function isTrustedForwarder(address forwarder) view returns (bool)"
+]

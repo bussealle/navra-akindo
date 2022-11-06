@@ -1,0 +1,18 @@
+[
+  "constructor(address)",
+  "event DomainRegistered(bytes32 indexed,bytes)",
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function EIP712_DOMAIN_TYPE() view returns (string)",
+  "function REQUEST_TYPEHASH() view returns (bytes32)",
+  "function domains(bytes32) view returns (bool)",
+  "function executeEIP712(tuple(address,address,address,uint256,uint256,uint256,uint256,uint256,bytes),bytes32,bytes) returns (bool, bytes)",
+  "function executePersonalSign(tuple(address,address,address,uint256,uint256,uint256,uint256,uint256,bytes),bytes) returns (bool, bytes)",
+  "function getNonce(address,uint256) view returns (uint256)",
+  "function getOwner() view returns (address)",
+  "function isOwner() view returns (bool)",
+  "function registerDomainSeparator(string,string)",
+  "function renounceOwnership()",
+  "function transferOwnership(address)",
+  "function verifyEIP712(tuple(address,address,address,uint256,uint256,uint256,uint256,uint256,bytes),bytes32,bytes) view",
+  "function verifyPersonalSign(tuple(address,address,address,uint256,uint256,uint256,uint256,uint256,bytes),bytes) view"
+]
